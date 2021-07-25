@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: #202124;
+    color: #e8eaed;
+}
+
+/* Globals*/
+h1 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+h2 {
+    margin: 30px 0 10px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 0 100px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5f6368;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    background-color: #202124;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #5f6368;
+    z-index: 1;
+}
+
+ul {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 15px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #e8eaed;
+}
+
+
+/* Content */
+.content {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 30px;
+}
+
+.content .title {
+    text-align: left;
+    margin: 40px 0;
+}
+
+/* Colors*/
+
+.color {
+    display: inline-block;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 3px 1px;
+}
+
+.color p {
+    padding: 2px;
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+    color: #FFF;
+}
+
+.pink {
+    background-color: rgb(255, 182, 193);
+    color: #000;
+}
+
+.mint-green {
+    background-color: rgb(152, 255, 152);
+    color: #000;
+}
+
+.beige {
+    background-color: rgb(244, 226, 198);
+    color: #000;
+}
+
+/* Fonts */
+.sans-serif {
+    line-height: 30px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.font {
+    display: inline-block;
+    margin: 10px 30px 0 0;
+}
+
+.font p {
+    font-size: 16px;
+}
+
+.open-sans {
+    font-family: 'Open Sans';
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.josefin-sans {
+    font-family: 'Josefin Sans';
+}
+
+/* Text Style*/
+.style {
+    line-height: 30px;
+}
+
+.style p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.code {
+    display: block;
+    width: 400px;
+}
+
+footer {
+    background-color: #303134;
+    height: 70px;
+}
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    color: #FFF;
+}
+
+/* Media Queries */
