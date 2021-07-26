@@ -20,7 +20,3 @@ Project is created with
 ## Setup
 
 To run the site you need to install VSCode and Live Server Extension.
-
-## Status
-
-**Note:** It is under-development and needs to add content.
